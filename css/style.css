@@ -83,7 +83,8 @@ body {
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #00488b; }
 
 .paragraph {
   font-size: 1.6rem; }
@@ -145,6 +146,34 @@ body {
   animation: moveInBottom 2s ease-out 0.1s;
   animation-fill-mode: backwards; }
 
+.btn-icons:link, .btn-icons:visited {
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 3.5rem; }
+
+.btn-icons:hover {
+  transform: translateY(-0.3rem); }
+  .btn-icons:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn-icons:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1 rgba(0, 0, 0, 0.212); }
+
+.btn-icons::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s; }
+
 .composition {
   position: relative; }
   .composition__photo {
@@ -160,10 +189,16 @@ body {
       top: -2rem; }
     .composition__photo--p2 {
       right: 0;
-      top: 2rem; }
+      top: 4rem; }
     .composition__photo--p3 {
-      left: 20%;
+      left: 0;
       top: 10rem; }
+    .composition__photo--p4 {
+      right: 0;
+      top: 20rem; }
+    .composition__photo--p5 {
+      top: 28rem;
+      right: 40%; }
     .composition__photo:hover {
       outline: 1.5rem solid #a6aeb1;
       transform: scale(1.05) translateY(-0.5rem);
@@ -205,7 +240,7 @@ body {
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  clip-path: polygon(16% 0, 100% 0, 100% 17%, 100% 63%, 100% 100%, 50% 84%, 0 100%, 0 0); }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -218,3 +253,36 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+.footer {
+  padding: 8rem 0;
+  font-size: 1.4rem;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 72, 139, 0.8)), url(../../images/wall.png);
+  clip-path: polygon(0 28%, 100% 51%, 100% 100%, 0% 100%);
+  background-size: cover;
+  background-position: bottom;
+  display: grid;
+  grid-template-rows: repeat(2, span 1fr);
+  grid-template-columns: repeat(3, span 1fr);
+  justify-content: center; }
+  .footer__icons {
+    margin-top: 10rem;
+    position: relative;
+    font-size: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 8rem;
+    justify-items: center;
+    align-items: center;
+    color: #a6aeb1; }
+    .footer__icons--github {
+      color: #a6aeb1; }
+    .footer__icons--facebook {
+      color: #a6aeb1; }
+    .footer__icons--linkedin {
+      color: #a6aeb1; }
+    .footer__icons--copy {
+      text-align: inline-block;
+      transform: uppercase;
+      margin-left: 20%;
+      font-size: 2rem; }

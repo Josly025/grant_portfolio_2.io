@@ -15,11 +15,20 @@
     }
     &--p2 {
       right: 0;
-      top: 2rem;
+      top: 4rem;
     }
     &--p3 {
-      left: 20%;
+      left: 0;
       top: 10rem;
+    }
+
+    &--p4 {
+      right: 0;
+      top: 20rem;
+    }
+    &--p5 {
+      top: 28rem;
+      right: 40%;
     }
 
     &:hover {
