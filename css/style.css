@@ -207,6 +207,15 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.headshot {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 72, 139, 0.8)), url(../../images/wall.png);
+  clip-path: polygon(0 18%, 88% 23%, 100% 85%, 11% 82%);
+  background-size: cover;
+  background-position: top;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  padding: 19rem;
+  margin: 0; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
