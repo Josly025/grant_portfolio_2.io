@@ -126,7 +126,7 @@
       </div>
       <!--contact-->
 
-      <form class="contact" action="POST" data-netlify="true">
+      <form name="contact" class="contact" method="POST" data-netlify="true">
         <div class="contact__heading">
           <h3 class="">Contact</h3>
         </div>
@@ -138,7 +138,7 @@
           <label>Name</label>
         </div>
         <div class="contact__inputs">
-          <input type="text" name="email" required="required" /><span
+          <input type="email" name="email" required="required" /><span
             class="highlight"
           ></span
           ><span class="bar"></span>
@@ -154,7 +154,9 @@
           ><span class="highlight"></span><span class="bar"></span>
           <label>Message</label>
         </div>
-        <a href="#" class="btn btn--white btn--animated">Send Message</a>
+        <a href="#" type="submit" class="btn btn--white btn--animated"
+          >Send Message</a
+        >
       </form>
     </section>
 
