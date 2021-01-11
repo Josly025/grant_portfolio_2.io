@@ -5,13 +5,14 @@
   top: 8%;
   width: 6rem;
   height: 6rem;
+
   background: url("./../../images/menu.png");
+  //   background: url(https://i.ibb.co/HrfVRcx/menu.png);
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: center;
   cursor: pointer;
-
-  &:active {
+  &.active {
     background: url("./../../images/close.png");
     background-repeat: no-repeat;
     background-size: 2.5rem;
@@ -20,7 +21,7 @@
   }
 }
 
-.showcase {
+.nav {
   position: absolute;
   right: 0;
   width: 100%;
@@ -33,21 +34,26 @@
   transition: 0.5s;
   z-index: 2;
 
-  &:active {
+  &.active {
     right: 300px;
   }
 }
 
+.active {
+  right: 300px;
+}
 //menu Hidden
-.menu {
+.nav__items {
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 30rem;
   height: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
   align-items: center;
+
   ul {
     position: relative;
   }
@@ -61,5 +67,6 @@
   }
   ul li a:hover {
     color: $color-dark-blue;
+    letter-spacing: 0.5rem;
   }
 }

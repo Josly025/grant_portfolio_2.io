@@ -383,14 +383,14 @@ label {
   background-size: 3rem;
   background-position: center;
   cursor: pointer; }
-  .toggle:active {
+  .toggle.active {
     background: url("./../../images/close.png");
     background-repeat: no-repeat;
     background-size: 2.5rem;
     background-position: center;
     cursor: pointer; }
 
-.showcase {
+.nav {
   position: absolute;
   right: 0;
   width: 100%;
@@ -402,28 +402,33 @@ label {
   background: rgba(0, 0, 0, 0.658);
   transition: 0.5s;
   z-index: 2; }
-  .showcase:active {
+  .nav.active {
     right: 300px; }
 
-.menu {
+.active {
+  right: 300px; }
+
+.nav__items {
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 30rem;
   height: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
   align-items: center; }
-  .menu ul {
+  .nav__items ul {
     position: relative; }
-  .menu ul li {
+  .nav__items ul li {
     list-style: none; }
-  .menu ul li a {
+  .nav__items ul li a {
     text-decoration: none;
     font-size: 2.4rem;
     color: black; }
-  .menu ul li a:hover {
-    color: #00488b; }
+  .nav__items ul li a:hover {
+    color: #00488b;
+    letter-spacing: 0.5rem; }
 
 .row {
   max-width: 114rem;
