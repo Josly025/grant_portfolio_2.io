@@ -317,7 +317,9 @@ body {
     letter-spacing: 0.7rem; }
 
 textarea {
-  resize: none; }
+  resize: none;
+  font-family: "Mukta", sans-serif;
+  font-size: 2.5rem; }
 
 input,
 textarea {
@@ -369,6 +371,59 @@ label {
     background: rgba(0, 0, 0, 0.658);
     transition: 300ms ease all;
     left: 0%; }
+
+.toggle {
+  position: absolute;
+  left: 90%;
+  top: 8%;
+  width: 6rem;
+  height: 6rem;
+  background: url("./../../images/menu.png");
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: center;
+  cursor: pointer; }
+  .toggle:active {
+    background: url("./../../images/close.png");
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    background-position: center;
+    cursor: pointer; }
+
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.658);
+  transition: 0.5s;
+  z-index: 2; }
+  .showcase:active {
+    right: 300px; }
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .menu ul {
+    position: relative; }
+  .menu ul li {
+    list-style: none; }
+  .menu ul li a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: black; }
+  .menu ul li a:hover {
+    color: #00488b; }
 
 .row {
   max-width: 114rem;

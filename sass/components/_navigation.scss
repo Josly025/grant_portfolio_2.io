@@ -1,0 +1,65 @@
+//Showcase and toggle
+.toggle {
+  position: absolute;
+  left: 90%;
+  top: 8%;
+  width: 6rem;
+  height: 6rem;
+  background: url("./../../images/menu.png");
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: center;
+  cursor: pointer;
+
+  &:active {
+    background: url("./../../images/close.png");
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    background-position: center;
+    cursor: pointer;
+  }
+}
+
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $color-black-light;
+  transition: 0.5s;
+  z-index: 2;
+
+  &:active {
+    right: 300px;
+  }
+}
+
+//menu Hidden
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    position: relative;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul li a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: $color-black;
+  }
+  ul li a:hover {
+    color: $color-dark-blue;
+  }
+}
