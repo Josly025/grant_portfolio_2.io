@@ -51,7 +51,6 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
   align-items: center;
 
   ul {
@@ -59,14 +58,17 @@
   }
   ul li {
     list-style: none;
+    margin-bottom: 2rem;
   }
   ul li a {
     text-decoration: none;
     font-size: 2.4rem;
-    color: $color-black;
+    color: $color-grey;
+    transition: 0.5s;
   }
   ul li a:hover {
     color: $color-dark-blue;
     letter-spacing: 0.5rem;
+    border-bottom: 0.1rem solid $color-dark-blue;
   }
 }

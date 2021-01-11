@@ -46,6 +46,7 @@ body {
   /* font-size: 16px; */
   line-height: 1.7;
   padding: 3rem;
+  background-color: #222629;
   box-sizing: border-box; }
 
 body {
@@ -432,19 +433,21 @@ label {
   height: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
   align-items: center; }
   .nav__items ul {
     position: relative; }
   .nav__items ul li {
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 2rem; }
   .nav__items ul li a {
     text-decoration: none;
     font-size: 2.4rem;
-    color: black; }
+    color: #a6aeb1;
+    transition: 0.5s; }
   .nav__items ul li a:hover {
     color: #00488b;
-    letter-spacing: 0.5rem; }
+    letter-spacing: 0.5rem;
+    border-bottom: 0.1rem solid #00488b; }
 
 .row {
   max-width: 114rem;
