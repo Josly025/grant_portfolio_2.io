@@ -5,6 +5,7 @@ body {
   line-height: 1.7;
   color: $color-grey;
   padding: 3rem;
+  // letter-spacing: 0.2rem;
 }
 
 .heading-primary {
@@ -43,6 +44,14 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: $color-dark-blue;
+  letter-spacing: 0.5rem;
+}
+
+.heading-tertiary-contact {
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color-white;
 }
 
 .paragraph {
