@@ -94,3 +94,14 @@ label {
     left: 0%;
   }
 }
+
+#input {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background: transparent;
+  color: $color-grey;
+  border: 0.2rem solid $color-grey;
+}

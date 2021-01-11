@@ -9,6 +9,7 @@
     transition: all 0.2s;
     position: relative;
     font-size: 1.6rem;
+    letter-spacing: 0.2rem;
   }
 
   &:hover {
@@ -27,11 +28,15 @@
   }
 
   &--white {
-    background-color: $color-grey;
+    // background-color: $color-grey;
+    background-color: transparent;
     color: $color-dark-blue;
+    color: $color-grey;
 
     &::after {
+      border: 0.2rem solid $color-grey;
       background-color: $color-grey;
+      background-color: transparent;
     }
   }
 
@@ -124,6 +129,7 @@
     position: relative;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
+    border: 0.2rem solid $color-black;
   }
 
   &:hover {
@@ -131,6 +137,8 @@
     box-shadow: 0 1rem 2rem rgba($color-black, 0.212);
     color: $color-dark-blue;
     background-color: $color-grey;
+    // background-color: transparent;
+    border: 0.2rem solid $color-dark-blue;
 
     &::after {
       // transform: scaleX(1.2) scaleY(1.2);

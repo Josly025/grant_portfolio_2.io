@@ -17,7 +17,7 @@
     <title>Grant's Portfolio</title>
   </head>
   <body>
-    <header class="header nav">
+    <header id="home" class="header nav">
       <div class="header__logo-box">
         <img src="images/logo-2.png" alt="Logo" class="header__logo" />
         
@@ -42,7 +42,7 @@
     <section class="section-about">
       <div class="row">
         <div class="col-1-of-2">
-          <div class="headshot">
+          <div  class="headshot">
             <figure class="headshot__shape">
               <img
                 src="images/Bio_image.png"
@@ -51,7 +51,7 @@
               />
             </figure>
           </div>
-          <h3 class="heading-tertiary u-margin-bottom-small">
+          <h3 id="about" class="heading-tertiary u-margin-bottom-small">
             Hello, I'm Grant...
           </h3>
           <p class="paragraph">
@@ -72,7 +72,7 @@
         </div>
         <div class="col-1-of-2">
           <div class="u-center-text u-margin-bottom-big">
-            <h3 class="heading-tertiary">My Projects</h3>
+            <h3 id="projects" class="heading-tertiary">My Projects</h3>
           </div>
           <div class="composition">
             <img
@@ -81,7 +81,7 @@
               class="composition__photo composition__photo--p1"
             />
             <a
-              href="https://www.linkedin.com/in/grantjoslyn"
+              href="https://hidden-mountain-77738.herokuapp.com/"
               class="btn-images btn-images--white btn-images--animated btn-1"
               >Employee Index</a
             >
@@ -91,7 +91,7 @@
               class="composition__photo composition__photo--p2"
             />
             <a
-              href="https://www.linkedin.com/in/grantjoslyn"
+              href="https://josly025.github.io/loan_calculation.io/"
               class="btn-images btn-images--white btn-images--animated btn-2"
               >Loan Calculator
             </a>
@@ -101,7 +101,7 @@
               class="composition__photo composition__photo--p3"
             />
             <a
-              href="https://www.linkedin.com/in/grantjoslyn"
+              href="https://josly025.github.io/reading_list.io/"
               class="btn-images btn-images--white btn-images--animated btn-3"
               >Reading List</a
             >
@@ -121,7 +121,7 @@
               class="composition__photo composition__photo--p5"
             />
             <a
-              href="https://www.linkedin.com/in/grantjoslyn"
+              href="https://josly025.github.io/movie_search.io/"
               class="btn-images btn-images--white btn-images--animated btn-5"
               >Movie Search</a
             >
@@ -130,9 +130,9 @@
       </div>
       <!--contact-->
 
-      <form name="contact" class="contact" method="POST" data-netlify="true">
-        <div class="contact__heading">
-          <h3 class="">Contact</h3>
+      <form  name="contact" class="contact" method="POST" data-netlify="true">
+        <div id="contact" class="contact__heading">
+          <h3 >Contact</h3>
         </div>
         <div class="contact__inputs">
           <input type="text" name="name" id="name" required="required" /><span
@@ -161,42 +161,41 @@
           ><span class="highlight"></span><span class="bar"></span>
           <label>Message</label>
         </div>
-        <input type="submit" class="btn btn--white btn--animated">
+        <input id="input" type="submit" class="btn btn--white btn--animated">
       </input>
       </form>
     </section>
+    
 
     <!--footer-->
-    <footer class="footer">
+    <footer class="footer" id="accounts">
+      <h3 class="heading-tertiary accounts">
+            Accounts
+          </h3>
+     
       <div class="footer__icons">
-        <div>
-          <a href="https://github.com/Josly025" class="footer__icons--github"
-            ><i class="fab fa-github btn-icons"></i
+          <a href="https://github.com/Josly025" 
+            ><i  id="github"class="fab fa-github btn-icons"></i
           ></a>
-        </div>
-        <div>
-          <a href="#" class="footer__icons--facebook"
-            ><i class="fab fa-facebook-square btn-icons"></i
+          <a href="https://www.facebook.com/grant.joslyn.77/" 
+            ><i id="facebook" class="fab fa-facebook-square btn-icons"></i
           ></a>
-        </div>
-        <div>
           <a
             href="https://www.linkedin.com/in/grantjoslyn"
-            class="footer__icons--linkedin"
-            ><i class="fab fa-linkedin btn-icons"></i
+            
+            ><i  id="linkedin" class="fab fa-linkedin btn-icons"></i
           ></a>
-        </div>
       </div>
       <div class="footer__icons--copy">Grant Joslyn &copy</div>
     </footer>
     <!--Hidden Menu-->
     <div class="nav__items">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Accounts</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#accounts">Accounts</a></li>
       </ul>
     </div>
     <script src="app.js"></script>
