@@ -115,7 +115,6 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
   font-size: 1.6rem; }
@@ -124,7 +123,7 @@ body {
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.212); }
   .btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.2) scaleY(1.2);
     opacity: 0; }
 
 .btn:active {
@@ -142,7 +141,6 @@ body {
   display: inline-block;
   height: 100%;
   width: 100%;
-  border-radius: 10rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -186,7 +184,6 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
   font-size: 1.6rem;
@@ -194,9 +191,10 @@ body {
 
 .btn-images:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.212); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.212);
+  color: #00488b;
+  background-color: #a6aeb1; }
   .btn-images:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
 .btn-images:active {
@@ -214,7 +212,6 @@ body {
   display: inline-block;
   height: 100%;
   width: 100%;
-  border-radius: 10rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -228,28 +225,28 @@ body {
 .btn-1 {
   position: relative;
   left: 65%;
-  top: 0; }
+  top: 2rem; }
 
 .btn-2 {
-  right: 50%;
-  top: 28rem; }
+  right: 46%;
+  top: 30rem; }
 
 .btn-3 {
-  left: 65%;
+  left: 75%;
   top: 50rem; }
 
 .btn-4 {
-  right: 40%;
+  right: 43%;
   top: 80rem; }
 
 .btn-5 {
-  top: 107rem;
+  top: 110rem;
   left: 70%; }
 
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 70%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -257,23 +254,23 @@ body {
     transition: all 0.2s;
     outline-offset: 2rem; }
     .composition__photo--p1 {
-      left: 0;
+      left: -8rem;
       top: -4rem; }
     .composition__photo--p2 {
-      right: 0;
+      right: -10rem;
       top: 20rem; }
     .composition__photo--p3 {
-      left: 0;
+      left: -2rem;
       top: 50rem; }
     .composition__photo--p4 {
-      right: 0;
-      top: 80rem; }
+      right: -6rem;
+      top: 78rem; }
     .composition__photo--p5 {
-      top: 110rem;
+      top: 112rem;
       right: 40%; }
     .composition__photo:hover {
       outline: 1.5rem solid #a6aeb1;
-      transform: scale(1.05) translateY(-0.5rem);
+      transform: scale(1.1, 1.1) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {

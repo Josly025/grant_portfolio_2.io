@@ -1,7 +1,7 @@
 .composition {
   position: relative;
   &__photo {
-    width: 55%;
+    width: 70%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -10,30 +10,30 @@
     outline-offset: 2rem;
 
     &--p1 {
-      left: 0;
+      left: -8rem;
       top: -4rem;
     }
     &--p2 {
-      right: 0;
+      right: -10rem;
       top: 20rem;
     }
     &--p3 {
-      left: 0;
+      left: -2rem;
       top: 50rem;
     }
 
     &--p4 {
-      right: 0;
-      top: 80rem;
+      right: -6rem;
+      top: 78rem;
     }
     &--p5 {
-      top: 110rem;
+      top: 112rem;
       right: 40%;
     }
 
     &:hover {
       outline: 1.5rem solid $color-grey;
-      transform: scale(1.05) translateY(-0.5rem);
+      transform: scale(1.1, 1.1) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
       z-index: 20;
     }
