@@ -259,6 +259,10 @@ body {
   top: 110rem;
   left: 70%; }
 
+.resume-btn {
+  left: 60rem;
+  top: 13rem; }
+
 .composition {
   position: relative; }
   .composition__photo {
@@ -456,6 +460,29 @@ label {
     color: #00488b;
     letter-spacing: 0.5rem;
     border-bottom: 0.1rem solid #00488b; }
+
+.resume__logo {
+  position: relative;
+  height: 20rem;
+  left: 95rem; }
+
+.resume__image {
+  position: relative;
+  height: 40%;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.5s;
+  outline-offset: 2rem;
+  right: 97rem; }
+  .resume__image:hover {
+    outline: 1.5rem solid #a6aeb1;
+    transform: scale(1.1, 1.1) translateY(-0.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    z-index: 20; }
+
+.resume:hover .resume__image:not(:hover) {
+  transform: scale(0.95); }
 
 .row {
   max-width: 114rem;

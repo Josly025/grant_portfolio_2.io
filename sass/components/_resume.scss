@@ -1,0 +1,28 @@
+.resume {
+  &__logo {
+    position: relative;
+    height: 20rem;
+    left: 95rem;
+  }
+
+  &__image {
+    position: relative;
+    height: 40%;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.5s;
+    outline-offset: 2rem;
+    right: 97rem;
+    &:hover {
+      outline: 1.5rem solid $color-grey;
+      transform: scale(1.1, 1.1) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      z-index: 20;
+    }
+  }
+
+  &:hover &__image:not(:hover) {
+    transform: scale(0.95);
+  }
+}
