@@ -2,7 +2,7 @@
   &__logo {
     position: relative;
     height: 20rem;
-    left: 95rem;
+    left: 70%;
   }
 
   &__image {
@@ -13,7 +13,7 @@
     z-index: 10;
     transition: all 0.5s;
     outline-offset: 2rem;
-    right: 97rem;
+    right: 42%;
     &:hover {
       outline: 1.5rem solid $color-grey;
       transform: scale(1.1, 1.1) translateY(-0.5rem);

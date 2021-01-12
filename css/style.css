@@ -260,7 +260,7 @@ body {
   left: 70%; }
 
 .resume-btn {
-  left: 60rem;
+  left: 20%;
   top: 13rem; }
 
 .composition {
@@ -464,7 +464,7 @@ label {
 .resume__logo {
   position: relative;
   height: 20rem;
-  left: 95rem; }
+  left: 70%; }
 
 .resume__image {
   position: relative;
@@ -474,7 +474,7 @@ label {
   z-index: 10;
   transition: all 0.5s;
   outline-offset: 2rem;
-  right: 97rem; }
+  right: 42%; }
   .resume__image:hover {
     outline: 1.5rem solid #a6aeb1;
     transform: scale(1.1, 1.1) translateY(-0.5rem);
