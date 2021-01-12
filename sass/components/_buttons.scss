@@ -98,24 +98,6 @@
   }
 }
 
-// .btn-secondary {
-//   display: inline-block;
-//   font-size: 100%;
-//   background: $color-dark-blue;
-//   padding: 1rem 0.3rem;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   font-weight: 500;
-//   color: #111;
-//   letter-spacing: 0.2rem;
-//   transition: 0.2s;
-//   position: relative;
-
-//   &:hover {
-//     letter-spacing: 6px;
-//   }
-// }
-
 //Btn for linking to the projects
 .btn-images {
   &:link,
@@ -141,9 +123,9 @@
     border: 0.3rem solid $color-dark-blue;
 
     background-image: linear-gradient(
-        to right bottom,
-        rgba($color-dark-blue, 0.8),
-        rgba($color-grey, 0.8)
+        to right top,
+        rgba($color-grey, 0.8),
+        rgba($bg-color, 0.8)
       ),
       url(../../images/wall.png);
 
