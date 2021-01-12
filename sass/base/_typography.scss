@@ -43,8 +43,13 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
-  color: $color-dark-blue;
+  // color: $color-dark-blue;
+
   letter-spacing: 0.5rem;
+
+  background: -webkit-linear-gradient(100deg, $color-grey, $color-dark-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heading-tertiary-contact {

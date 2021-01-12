@@ -12,7 +12,8 @@
       rgba($color-dark-blue, 0.8)
     ),
     url(../../images/wall.png);
-  -webkit-clip-path: polygon(0 18%, 88% 23%, 100% 85%, 11% 82%);
+  // -webkit-clip-path: polygon(0 18%, 88% 23%, 100% 85%, 11% 82%);
+  -webkit-clip-path: polygon(0 10%, 100% 20%, 100% 90%, 0 82%);
   background-size: cover;
 
   background-position: top;
