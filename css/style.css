@@ -90,6 +90,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.heading-tertiary-accounts {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem; }
+
 .heading-tertiary-contact {
   font-size: 2.5rem;
   font-weight: 700;
@@ -118,7 +124,7 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  transition: all 0.2s;
+  transition: all 1s;
   position: relative;
   font-size: 1.6rem;
   letter-spacing: 0.2rem; }
@@ -160,7 +166,7 @@ body {
 
 .btn-icons:link, .btn-icons:visited {
   display: inline-block;
-  transition: all 0.2s;
+  transition: all 0.5s;
   position: relative;
   font-size: 3.5rem; }
 
@@ -184,14 +190,14 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all 0.4s; }
+  transition: all 0.8s; }
 
 .btn-images:link, .btn-images:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  transition: all 0.2s;
+  transition: all 0.8s;
   position: relative;
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
@@ -260,7 +266,7 @@ body {
     border-radius: 2px;
     position: absolute;
     z-index: 10;
-    transition: all 0.2s;
+    transition: all 0.5s;
     outline-offset: 2rem; }
     .composition__photo--p1 {
       left: -8rem;

@@ -52,6 +52,15 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.heading-tertiary-accounts {
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  // color: $color-dark-blue;
+
+  letter-spacing: 0.5rem;
+}
+
 .heading-tertiary-contact {
   font-size: $default-font-size;
   font-weight: 700;
