@@ -292,7 +292,7 @@ body {
   @media (max-width: 37.5em) {
     .btn-3 {
       left: 10%;
-      top: 44rem; } }
+      top: 45rem; } }
 
 .btn-4 {
   right: 43%;
@@ -527,7 +527,7 @@ label {
     right: 30rem; }
     @media (max-width: 37.5em) {
       .nav.active {
-        right: 150px; } }
+        right: 15rem; } }
 
 .active {
   right: 30rem; }
@@ -541,6 +541,9 @@ label {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 37.5em) {
+    .nav__items {
+      right: -7rem; } }
   .nav__items ul {
     position: relative; }
   .nav__items ul li {
@@ -659,7 +662,8 @@ label {
       transform: uppercase;
       font-size: 2rem;
       letter-spacing: 0.5rem;
-      grid-area: 3 / 2 / 4 / 3; }
+      grid-area: 3 / 2 / 4 / 3;
+      margin-left: 1rem; }
 
 .accounts {
   grid-area: 1 / 2 / 2 / 3;
@@ -675,14 +679,14 @@ label {
 
 #facebook {
   color: #a6aeb1;
-  margin-left: -8rem; }
+  margin-left: -14rem; }
   @media (max-width: 37.5em) {
     #facebook {
       margin-right: 2rem; } }
 
 #linkedin {
   color: #a6aeb1;
-  margin-left: 6rem; }
+  margin-left: 12rem; }
   @media (max-width: 37.5em) {
     #linkedin {
       margin-right: 0rem; } }
