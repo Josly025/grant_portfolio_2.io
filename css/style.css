@@ -284,7 +284,7 @@ body {
   @media (max-width: 37.5em) {
     .btn-2 {
       right: 0%;
-      top: 28rem; } }
+      top: 37rem; } }
 
 .btn-3 {
   left: 75%;
@@ -292,7 +292,7 @@ body {
   @media (max-width: 37.5em) {
     .btn-3 {
       left: 10%;
-      top: 45rem; } }
+      top: 62rem; } }
 
 .btn-4 {
   right: 43%;
@@ -300,14 +300,14 @@ body {
   @media (max-width: 37.5em) {
     .btn-4 {
       right: -8%;
-      top: 59rem; } }
+      top: 85rem; } }
 
 .btn-5 {
   top: 110rem;
   left: 70%; }
   @media (max-width: 37.5em) {
     .btn-5 {
-      top: 78rem;
+      top: 112rem;
       left: 10%; } }
 
 .resume-btn {
@@ -344,27 +344,27 @@ body {
       @media (max-width: 37.5em) {
         .composition__photo--p2 {
           right: 0rem;
-          top: 18rem; } }
+          top: 25rem; } }
     .composition__photo--p3 {
       left: -2rem;
       top: 50rem; }
       @media (max-width: 37.5em) {
         .composition__photo--p3 {
           left: 0rem;
-          top: 45rem; } }
+          top: 62rem; } }
     .composition__photo--p4 {
       right: -6rem;
       top: 78rem; }
       @media (max-width: 37.5em) {
         .composition__photo--p4 {
           right: 0rem;
-          top: 65rem; } }
+          top: 90rem; } }
     .composition__photo--p5 {
       top: 112rem;
       right: 40%; }
       @media (max-width: 37.5em) {
         .composition__photo--p5 {
-          top: 86rem;
+          top: 118rem;
           right: 0%; } }
     .composition__photo:hover {
       outline: 1.5rem solid #a6aeb1;
@@ -675,18 +675,18 @@ label {
   margin-right: 25rem; }
   @media (max-width: 37.5em) {
     #github {
-      margin-right: 15rem; } }
+      margin-right: 2rem; } }
 
 #facebook {
   color: #a6aeb1;
   margin-left: -14rem; }
   @media (max-width: 37.5em) {
     #facebook {
-      margin-right: 2rem; } }
+      margin-left: 8rem; } }
 
 #linkedin {
   color: #a6aeb1;
   margin-left: 12rem; }
   @media (max-width: 37.5em) {
     #linkedin {
-      margin-right: 0rem; } }
+      margin-right: 1rem; } }

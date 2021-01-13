@@ -25,7 +25,7 @@
       top: 20rem;
       @include respond(phone) {
         right: 0rem;
-        top: 18rem;
+        top: 25rem;
       }
     }
     &--p3 {
@@ -33,7 +33,7 @@
       top: 50rem;
       @include respond(phone) {
         left: 0rem;
-        top: 45rem;
+        top: 62rem;
       }
     }
 
@@ -42,14 +42,14 @@
       top: 78rem;
       @include respond(phone) {
         right: 0rem;
-        top: 65rem;
+        top: 90rem;
       }
     }
     &--p5 {
       top: 112rem;
       right: 40%;
       @include respond(phone) {
-        top: 86rem;
+        top: 118rem;
         right: 0%;
       }
     }

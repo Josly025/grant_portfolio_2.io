@@ -192,7 +192,7 @@
   top: 30rem;
   @include respond(phone) {
     right: 0%;
-    top: 28rem;
+    top: 37rem;
   }
 }
 
@@ -201,7 +201,7 @@
   top: 50rem;
   @include respond(phone) {
     left: 10%;
-    top: 45rem;
+    top: 62rem;
   }
 }
 
@@ -210,7 +210,7 @@
   top: 80rem;
   @include respond(phone) {
     right: -8%;
-    top: 59rem;
+    top: 85rem;
   }
 }
 
@@ -218,7 +218,7 @@
   top: 110rem;
   left: 70%;
   @include respond(phone) {
-    top: 78rem;
+    top: 112rem;
     left: 10%;
   }
 }
