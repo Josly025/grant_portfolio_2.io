@@ -12,14 +12,23 @@
   padding: 6rem 10rem;
   // padding-left: 9rem;
   margin: 0;
+  @include respond(phone) {
+    padding: 2rem 0rem 0rem 0rem;
+    -webkit-clip-path: polygon(0 18%, 100% 0%, 100% 85%, 20% 100%);
+  }
 
   &__shape {
     width: 32rem;
     height: 50rem;
-    -webkit-clip-path: polygon(0 18%, 88% 23%, 100% 85%, 11% 82%);
+    -webkit-clip-path: polygon(0 18%, 88% 23%, 100% 85%, 0% 100%);
   }
 
   &__image {
     height: 95%;
+    @include respond(phone) {
+      width: 80%;
+      height: 90%;
+      padding-right: 6rem;
+    }
   }
 }

@@ -3,6 +3,10 @@
     position: relative;
     height: 20rem;
     left: 15%;
+    @include respond(phone) {
+      height: 12rem;
+      left: -2rem;
+    }
   }
 
   &__image {
@@ -14,6 +18,11 @@
     transition: all 0.5s;
     outline-offset: 2rem;
     right: 42%;
+    @include respond(phone) {
+      height: 20%;
+      right: 35%;
+    }
+
     &:hover {
       outline: 1.5rem solid $color-grey;
       transform: scale(1.1, 1.1) translateY(-0.5rem);

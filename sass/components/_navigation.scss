@@ -12,6 +12,10 @@
   background-size: 3rem;
   background-position: center;
   cursor: pointer;
+  @include respond(phone) {
+    left: 80%;
+    top: 6.5%;
+  }
   &.active {
     background: url("./../../images/close.png");
     background-repeat: no-repeat;
@@ -35,12 +39,15 @@
   z-index: 2;
 
   &.active {
-    right: 300px;
+    right: 30rem;
+    @include respond(phone) {
+      right: 150px;
+    }
   }
 }
 
 .active {
-  right: 300px;
+  right: 30rem;
 }
 //menu Hidden
 .nav__items {
