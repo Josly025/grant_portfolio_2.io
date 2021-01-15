@@ -20,14 +20,14 @@
   &__shape {
     width: 32rem;
     height: 50rem;
-    -webkit-clip-path: polygon(0 18%, 88% 23%, 100% 85%, 0% 100%);
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 10% 100%);
   }
 
   &__image {
     height: 95%;
     @include respond(phone) {
       width: 80%;
-      height: 90%;
+      height: 100%;
       padding-right: 6rem;
     }
   }
