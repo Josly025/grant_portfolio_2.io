@@ -48,6 +48,7 @@
       }
     }
     &--p5 {
+      width: 50%;
       top: 112rem;
       right: 40%;
       @include respond(phone) {

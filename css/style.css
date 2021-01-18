@@ -362,6 +362,7 @@ body {
           right: 0rem;
           top: 90rem; } }
     .composition__photo--p5 {
+      width: 50%;
       top: 112rem;
       right: 40%; }
       @media (max-width: 37.5em) {
