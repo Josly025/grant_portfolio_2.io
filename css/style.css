@@ -333,14 +333,16 @@ body {
         width: 100%; } }
     .composition__photo--p1 {
       left: -8rem;
-      top: -4rem; }
+      top: -4rem;
+      width: 60%; }
       @media (max-width: 37.5em) {
         .composition__photo--p1 {
           left: 0rem;
           top: -4rem; } }
     .composition__photo--p2 {
       right: -10rem;
-      top: 20rem; }
+      top: 20rem;
+      width: 65%; }
       @media (max-width: 37.5em) {
         .composition__photo--p2 {
           right: 0rem;

@@ -15,6 +15,7 @@
     &--p1 {
       left: -8rem;
       top: -4rem;
+      width: 60%;
       @include respond(phone) {
         left: 0rem;
         top: -4rem;
@@ -23,6 +24,7 @@
     &--p2 {
       right: -10rem;
       top: 20rem;
+      width: 65%;
       @include respond(phone) {
         right: 0rem;
         top: 25rem;
