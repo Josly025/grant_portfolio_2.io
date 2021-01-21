@@ -11,13 +11,15 @@
 
   &__image {
     position: relative;
-    height: 40%;
+    height: 2.5rem;
     border-radius: 2px;
     position: absolute;
     z-index: 10;
     transition: all 0.5s;
     outline-offset: 2rem;
-    right: 42%;
+    // right: 42%;
+    right: 4rem;
+
     @include respond(phone) {
       height: 20%;
       right: 35%;
