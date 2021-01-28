@@ -16,6 +16,10 @@
       left: -8rem;
       top: -4rem;
       width: 60%;
+      @include respond(tab-land) {
+        left: 0rem;
+        top: -5rem;
+      }
       @include respond(phone) {
         left: 0rem;
         top: -4rem;
@@ -25,6 +29,11 @@
       right: -10rem;
       top: 20rem;
       width: 65%;
+      @include respond(tab-land) {
+        right: 7rem;
+        top: 40rem;
+      }
+
       @include respond(phone) {
         right: 0rem;
         top: 25rem;
@@ -33,6 +42,10 @@
     &--p3 {
       left: -2rem;
       top: 50rem;
+      @include respond(tab-land) {
+        left: 0rem;
+        top: 80rem;
+      }
       @include respond(phone) {
         left: 0rem;
         top: 62rem;
@@ -42,6 +55,10 @@
     &--p4 {
       right: -6rem;
       top: 78rem;
+      @include respond(tab-land) {
+        right: 8rem;
+        top: 115rem;
+      }
       @include respond(phone) {
         right: 0rem;
         top: 90rem;
@@ -51,6 +68,10 @@
       width: 50%;
       top: 112rem;
       right: 40%;
+      @include respond(tab-land) {
+        top: 147rem;
+        right: 13rem;
+      }
       @include respond(phone) {
         top: 118rem;
         right: 0%;

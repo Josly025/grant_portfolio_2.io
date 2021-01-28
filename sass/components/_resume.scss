@@ -20,6 +20,15 @@
     // right: 42%;
     right: 4rem;
 
+    @include respond(tab-land) {
+      height: 18%;
+      right: 40%;
+    }
+
+    @include respond(tab-port) {
+      height: 18%;
+      right: 38%;
+    }
     @include respond(phone) {
       height: 20%;
       right: 35%;

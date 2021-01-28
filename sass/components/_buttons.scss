@@ -180,8 +180,11 @@
   position: relative;
   left: 65%;
   top: 2rem;
+  @include respond(tab-land) {
+    left: 2.5rem;
+    top: 24rem;
+  }
   @include respond(phone) {
-    position: relative;
     left: 4%;
     top: 8rem;
   }
@@ -190,6 +193,10 @@
 .btn-2 {
   right: 46%;
   top: 30rem;
+  @include respond(tab-land) {
+    left: 10rem;
+    top: 60rem;
+  }
   @include respond(phone) {
     right: 0%;
     top: 37rem;
@@ -199,6 +206,10 @@
 .btn-3 {
   left: 75%;
   top: 50rem;
+  @include respond(tab-land) {
+    left: 14%;
+    top: 89rem;
+  }
   @include respond(phone) {
     left: 10%;
     top: 65rem;
@@ -208,6 +219,11 @@
 .btn-4 {
   right: 43%;
   top: 80rem;
+
+  @include respond(tab-land) {
+    right: 25%;
+    top: 125rem;
+  }
   @include respond(phone) {
     right: -8%;
     top: 92rem;
@@ -217,6 +233,11 @@
 .btn-5 {
   top: 110rem;
   left: 70%;
+  @include respond(tab-land) {
+    // position: absolute;
+    top: 150rem;
+    left: -19rem;
+  }
   @include respond(phone) {
     top: 112rem;
     left: 10%;

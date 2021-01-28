@@ -13,22 +13,30 @@
   padding: 5rem 8rem;
   // padding-left: 9rem;
   margin: 3rem 0;
+  @include respond(tab-land) {
+    background: none;
+  }
   @include respond(phone) {
-    padding: 2rem 0rem 0rem 0rem;
-    -webkit-clip-path: polygon(0 18%, 100% 0%, 100% 85%, 20% 100%);
+    padding: 0rem 0rem 0rem 0rem;
+    background: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
   &__shape {
     width: 32rem;
     height: 50rem;
+
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
   }
 
   &__image {
     height: 90%;
+    @include respond(tab-land) {
+      height: 85%;
+    }
     @include respond(phone) {
-      height: 100%;
-      padding-right: 6rem;
+      width: 60%;
+      height: 70%;
     }
   }
 }

@@ -56,6 +56,9 @@ body {
   background: -webkit-linear-gradient(100deg, $color-grey, $color-dark-blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @include respond(tab-land) {
+    margin-left: 5rem;
+  }
   @include respond(phone) {
     font-size: 2.5rem;
   }
@@ -79,8 +82,17 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
+  @include respond(tab-land) {
+    margin-left: 5rem;
+  }
 
   &:not(:last-child) {
     margin-bottom: 3rem;
+  }
+}
+
+.my_projects {
+  @include respond(tab-land) {
+    margin-right: 20rem !important;
   }
 }

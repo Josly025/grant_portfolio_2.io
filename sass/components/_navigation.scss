@@ -12,6 +12,10 @@
   background-size: 3rem;
   background-position: center;
   cursor: pointer;
+  @include respond(tab-land) {
+    left: 80%;
+    top: 4%;
+  }
   @include respond(phone) {
     left: 80%;
     top: 6.5%;
@@ -37,9 +41,15 @@
   background: $color-black-light;
   transition: 0.5s;
   z-index: 2;
+  @include respond(tab-land) {
+    margin-left: 6rem;
+  }
 
   &.active {
     right: 30rem;
+    @include respond(tab-land) {
+      right: 11rem;
+    }
     @include respond(phone) {
       right: 15rem;
     }

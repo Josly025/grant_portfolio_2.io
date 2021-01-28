@@ -21,10 +21,21 @@
     0 100%,
     0 0
   );
+
+  @include respond(tab-land) {
+    //width < 1200?
+    height: 90vh;
+    width: 85%;
+  }
+
   &__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
+    @include respond(tab-land) {
+      top: 3.5rem;
+      left: 5rem;
+    }
   }
 
   &__logo {
