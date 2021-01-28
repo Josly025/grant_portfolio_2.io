@@ -317,6 +317,9 @@ body {
 .project__grid-5 {
   grid-area: 3 / 1 / 4 / 2; }
 
+.project__grid-6 {
+  grid-area: 3 / 2 / 4 / 3; }
+
 .project__photo {
   width: 100%;
   z-index: 1;
