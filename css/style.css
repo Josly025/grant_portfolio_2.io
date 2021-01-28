@@ -644,7 +644,9 @@ label {
   z-index: 10;
   transition: all 0.5s;
   outline-offset: 2rem;
-  right: 4rem; }
+  right: 4rem;
+  height: 40%;
+  right: 60rem; }
   @media (max-width: 75em) {
     .resume__image {
       height: 18%;

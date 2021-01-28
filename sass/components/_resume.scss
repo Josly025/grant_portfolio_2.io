@@ -19,6 +19,8 @@
     outline-offset: 2rem;
     // right: 42%;
     right: 4rem;
+    height: 40%;
+    right: 60rem;
 
     @include respond(tab-land) {
       height: 18%;
