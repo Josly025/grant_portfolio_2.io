@@ -45,8 +45,11 @@
 
     <section class="section-about">
       <div class="row">
-        <div class="col-1-of-2">
-          <div  class="headshot">
+        <div class="headshot__grid">
+
+
+
+          <div  class="headshot headshot__grid-image">
             <figure class="headshot__shape">
               <img
                 src="images/Bio_image.png"
@@ -55,13 +58,14 @@
               />
             </figure>
           </div>
-          <h3 class="heading-tertiary u-margin-bottom-small">Skills</h3>
+          <div class="headshot__grid-skills">
+<h3 class="heading-tertiary u-margin-bottom-small">Skills</h3>
           <p class="paragraph">
             HTML5, CSS3, SASS/SCSS, JavaScript, R, PsychoPy, jsPsych, Node.js, React.js ES6, jQuery, RESTful APIs,     
             Webpack, Express, Handlebars, mySQL, MongoDB, Git/GitHub, Figma, Heroku, Netlify  
           </p>
-        </div>
-        <div class="col-1-of-2" id="about-section">
+          </div>
+           <div class="headshot__grid-about" id="about-section">
         
             <h3 id="about" class="heading-tertiary u-margin-bottom-small">
             Hello, I'm Grant...
@@ -76,6 +80,12 @@
             bootcamp, which allowed me to broaden my coding skills and further enhanced my passion for programming. You can feel free 
             to view my projects below and send me a message in the contact section. 
         </div>
+          
+        </div>
+
+
+
+       
       </div>
       <!--Projects-->
       <div class="u-center-text u-margin-bottom-big">

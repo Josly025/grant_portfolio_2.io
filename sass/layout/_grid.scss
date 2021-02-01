@@ -46,3 +46,30 @@
     );
   }
 }
+
+// @include respond(tab-land) {
+//       display: flex;
+//       flex-direction: column;
+//     }
+
+.headshot__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  @include respond(tab-land) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-image {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  &-skills {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  &-about {
+    grid-area: 1 / 2 / 3 / 3;
+  }
+}

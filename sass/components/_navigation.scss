@@ -13,7 +13,7 @@
   background-position: center;
   cursor: pointer;
   @include respond(tab-land) {
-    left: 80%;
+    left: 85%;
     top: 4%;
   }
   @include respond(phone) {
