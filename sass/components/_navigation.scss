@@ -18,7 +18,7 @@
   }
   @include respond(phone) {
     left: 80%;
-    top: 6.5%;
+    top: 5.5%;
   }
   &.active {
     background: url("./../../images/close.png");

@@ -145,7 +145,11 @@ body {
 
 @media (max-width: 75em) {
   .my_projects {
-    margin-right: 20rem !important; } }
+    margin-left: -3rem !important; } }
+
+@media (max-width: 37.5em) {
+  .my_projects {
+    margin-left: 1rem; } }
 
 .u-center-text {
   text-align: center; }
@@ -284,6 +288,10 @@ body {
 .btn-projects {
   float: left;
   margin: 2rem 0 0 14rem; }
+  @media (max-width: 75em) {
+    .btn-projects {
+      float: left;
+      margin: 2rem 0 0 11rem; } }
 
 .project__grid {
   display: grid;
@@ -491,7 +499,7 @@ label {
   @media (max-width: 37.5em) {
     .toggle {
       left: 80%;
-      top: 6.5%; } }
+      top: 5.5%; } }
   .toggle.active {
     background: url("./../../images/close.png");
     background-repeat: no-repeat;
@@ -584,6 +592,10 @@ label {
     @media (max-width: 75em) {
       .resume__image {
         margin-left: 2rem; } }
+    @media (max-width: 37.5em) {
+      .resume__image {
+        margin-left: 0rem;
+        height: 25rem; } }
     .resume__image:hover {
       outline: 1.5rem solid #a6aeb1;
       transform: scale(1.1, 1.1) translateY(-0.5rem);
@@ -595,6 +607,9 @@ label {
     @media (max-width: 75em) {
       .resume__btn {
         margin-left: 2rem; } }
+    @media (max-width: 37.5em) {
+      .resume__btn {
+        margin-left: 0rem; } }
   .resume:hover .resume__image:not(:hover) {
     transform: scale(0.95); }
 
@@ -713,14 +728,14 @@ label {
   margin-right: 25rem; }
   @media (max-width: 37.5em) {
     #github {
-      margin-right: 2rem; } }
+      margin-right: 1rem; } }
 
 #facebook {
   color: #a6aeb1;
   margin-left: -14rem; }
   @media (max-width: 37.5em) {
     #facebook {
-      margin-left: 8rem; } }
+      margin-left: 11rem; } }
 
 #linkedin {
   color: #a6aeb1;

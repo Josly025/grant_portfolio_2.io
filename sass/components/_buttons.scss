@@ -179,4 +179,8 @@
 .btn-projects {
   float: left;
   margin: 2rem 0 0 14rem;
+  @include respond(tab-land) {
+    float: left;
+    margin: 2rem 0 0 11rem;
+  }
 }
