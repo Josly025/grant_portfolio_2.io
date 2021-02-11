@@ -135,12 +135,28 @@ body {
   text-transform: uppercase;
   color: #fff; }
 
-.paragraph {
-  font-size: 2.75rem; }
+.paragraph,
+#about {
+  font-size: 2.75rem;
+  margin-left: 2rem; }
   @media (max-width: 75em) {
-    .paragraph {
+    .paragraph,
+    #about {
       margin-left: 5rem; } }
-  .paragraph:not(:last-child) {
+  .paragraph:not(:last-child),
+  #about:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.paragraph__skills,
+#skills {
+  font-size: 2.75rem;
+  margin-left: -2rem; }
+  @media (max-width: 75em) {
+    .paragraph__skills,
+    #skills {
+      margin-left: 5rem; } }
+  .paragraph__skills:not(:last-child),
+  #skills:not(:last-child) {
     margin-bottom: 3rem; }
 
 @media (max-width: 75em) {

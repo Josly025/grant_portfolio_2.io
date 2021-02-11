@@ -83,8 +83,23 @@ body {
   color: $color-white;
 }
 
-.paragraph {
+.paragraph,
+#about {
   font-size: $default-font-size;
+  margin-left: 2rem;
+  @include respond(tab-land) {
+    margin-left: 5rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.paragraph__skills,
+#skills {
+  font-size: $default-font-size;
+  margin-left: -2rem;
   @include respond(tab-land) {
     margin-left: 5rem;
   }
