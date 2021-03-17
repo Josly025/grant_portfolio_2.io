@@ -33,6 +33,7 @@
 
   &__image {
     height: 90%;
+
     @include respond(tab-land) {
       height: 85%;
     }
