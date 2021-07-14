@@ -62,6 +62,7 @@
 
 //Button icons
 .btn-icons {
+  transition: all 350ms !important;
   &:link,
   &:visited {
     display: inline-block;
@@ -183,4 +184,8 @@
     float: left;
     margin: 2rem 0 0 11rem;
   }
+}
+
+#mjo_btn {
+  text-align: center;
 }
