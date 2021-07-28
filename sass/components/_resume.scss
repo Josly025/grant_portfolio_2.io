@@ -9,7 +9,7 @@
   @include respond(tab-land) {
     display: flex;
     flex-direction: column;
-    gap: 6rem 0;
+    gap: 10rem 0rem;
   }
   &__logo {
     height: 20rem;
@@ -23,9 +23,6 @@
     border-radius: 2px;
     transition: all 0.5s;
     outline-offset: 2rem;
-    @include respond(tab-land) {
-      margin-left: 2rem;
-    }
     @include respond(phone) {
       margin-left: 0rem;
       height: 25rem;

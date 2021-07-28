@@ -317,7 +317,8 @@ body {
 
 .btn-projects {
   float: left;
-  margin: 2rem 0 0 14rem; }
+  margin: 2rem 0 0 14rem;
+  text-align: center; }
   @media (max-width: 75em) {
     .btn-projects {
       float: left;
@@ -588,11 +589,12 @@ label {
     text-decoration: none;
     font-size: 2.4rem;
     color: #a6aeb1;
-    transition: 0.5s; }
+    transition: 0.5s;
+    transition: all 250ms; }
   .nav__items ul li a:hover {
     color: #00488b;
-    letter-spacing: 0.5rem;
-    border-bottom: 0.1rem solid #00488b; }
+    transform: translateX(-2px);
+    cursor: pointer; }
 
 .resume {
   display: grid;
@@ -606,7 +608,7 @@ label {
     .resume {
       display: flex;
       flex-direction: column;
-      gap: 6rem 0; } }
+      gap: 10rem 0rem; } }
   .resume__logo {
     height: 20rem; }
     @media (max-width: 75em) {
@@ -618,9 +620,6 @@ label {
     border-radius: 2px;
     transition: all 0.5s;
     outline-offset: 2rem; }
-    @media (max-width: 75em) {
-      .resume__image {
-        margin-left: 2rem; } }
     @media (max-width: 37.5em) {
       .resume__image {
         margin-left: 0rem;

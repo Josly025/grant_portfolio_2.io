@@ -180,6 +180,7 @@
 .btn-projects {
   float: left;
   margin: 2rem 0 0 14rem;
+  text-align: center;
   @include respond(tab-land) {
     float: left;
     margin: 2rem 0 0 11rem;
