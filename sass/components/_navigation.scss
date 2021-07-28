@@ -86,11 +86,13 @@
     font-size: 2.4rem;
     color: $color-grey;
     transition: 0.5s;
-    transition: all 250ms;
+    transition: all 250ms !important;
+    display: inline-block;
+    letter-spacing: 1px;
   }
   ul li a:hover {
     color: $color-dark-blue;
-    transform: translateX(-2px);
+    transform: translateX(5px) !important;
     cursor: pointer;
   }
 }

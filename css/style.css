@@ -590,10 +590,12 @@ label {
     font-size: 2.4rem;
     color: #a6aeb1;
     transition: 0.5s;
-    transition: all 250ms; }
+    transition: all 250ms !important;
+    display: inline-block;
+    letter-spacing: 1px; }
   .nav__items ul li a:hover {
     color: #00488b;
-    transform: translateX(-2px);
+    transform: translateX(5px) !important;
     cursor: pointer; }
 
 .resume {
