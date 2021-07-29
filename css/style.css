@@ -47,6 +47,7 @@
   box-sizing: inherit; }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%; }
   @media (max-width: 75em) {
     html {
@@ -81,6 +82,13 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #00488b; }
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 2; }
 
 body {
   font-family: "Mukta", sans-serif;

@@ -8,3 +8,9 @@ menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle("active");
   nav.classList.toggle("active");
 });
+
+window.onload = function () {
+  Particles.init({
+    selector: ".background",
+  });
+};
