@@ -15,7 +15,6 @@
   // -webkit-clip-path: polygon(0 18%, 88% 23%, 100% 85%, 11% 82%);
   -webkit-clip-path: polygon(0 10%, 100% 20%, 100% 90%, 0 82%);
   background-size: cover;
-
   background-position: top;
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
   padding: 21rem 10rem;
@@ -33,6 +32,7 @@
     color: $muted-color;
     text-align: center;
     letter-spacing: 0.7rem;
+    font-size: 3rem !important;
   }
 }
 

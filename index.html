@@ -22,7 +22,9 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap"
       rel="stylesheet"
     />
-    <!-- https://www.flickr.com/photos/192110007@N07/shares/mmh828 -->
+    <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
     <link href="./css/style.css" rel="stylesheet" />
     <title>Grant's Portfolio</title>
   </head>
@@ -85,18 +87,17 @@
           </div>
           
         </div>
-
-
       </div>
+
       <!--Projects-->
       <div class="u-center-text u-margin-bottom-big">
             <h3 id="projects" class="heading-tertiary my_projects">My Projects</h3>
           </div>
       <section class="projects">
-        <div class="project__grid">
+        <div class="project__grid" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .project__fade; delay: 500; repeat: true">
 
           <!--project1-->
-          <div class="project__grid-1 ">
+          <div class="project__grid-1 project__fade">
             <a target="_blank"
               href="https://cryptic-fortress-75760.herokuapp.com/"
               >
@@ -120,7 +121,7 @@
           </div>
 
           <!--project2-->
-           <div class="project__grid-2 ">
+           <div class="project__grid-2 project__fade">
              <a target="_blank"
               href="https://shredoutlet.herokuapp.com/"
               >
@@ -141,7 +142,7 @@
           </div>
 
           <!--project3-->
-           <div class="project__grid-3 ">
+           <div class="project__grid-3 project__fade">
               <a target="_blank"
               href="https://compassionate-leavitt-8ad7b2.netlify.app/"
               >
@@ -162,7 +163,7 @@
           </div>
 
          <!-- PROJECT 4 -->
-           <div class="project__grid-4">
+           <div class="project__grid-4 project__fade">
               <a id="mjo__btn" target="_blank"
               href="https://mattjohnsonoutdoors.com/"
               >
@@ -180,7 +181,7 @@
           </div> 
 
           <!--project5-->
-           <div class="project__grid-5">
+           <div class="project__grid-5 project__fade">
               <a target="_blank"
               href="https://agitated-sinoussi-fda0ef.netlify.app/">
                <img
@@ -212,6 +213,7 @@
              <a target="_blank" href="https://github.com/Josly025"><i class="fas fa-code-branch code_icon"></i></a> 
           </div>  
         -->
+        </div>
         </section>
           
       <!--CONTACT-->
@@ -252,11 +254,11 @@
     </section>
     <!--resume-->
     <!--Add grid-->
-    <section id="resume" class="resume" >
-        <div class="resume__row--one">
+    <section id="resume" class="resume"  uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
+        <div class="resume__row--one" uk-scrollspy-class="uk-animation-slide-top">
              <img src="images/logo-2.png" alt="Logo" class="resume__logo" />
         </div>
-        <div class="resume__row--two">
+        <div class="resume__row--two" uk-scrollspy-class="uk-animation-slide-bottom">
              <a target="_blank"
               href="./images/GrantJ_Resume_2021.pdf">
             <img src="./images/Resume_Winter_ 2021-1.png"
@@ -264,7 +266,7 @@
               class="resume__image"
             /></a>
         </div>
-        <div class=resume__row--three resume__btn>
+        <div class="resume__row--three" uk-scrollspy-class="uk-animation-slide-top">
                <a target="_blank"
               href="./images/Grant_Joslyn_Resume.pdf"
               class="btn-images btn-images--white btn-images--animated "
@@ -311,6 +313,10 @@
 <script src=
 "path/to/particles.min.js"
 ></script>
+   <!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
     <script src="app.js"></script>
+
   </body>
 </html>
