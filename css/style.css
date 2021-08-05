@@ -370,6 +370,12 @@ body {
 .project__grid-6 {
   grid-area: 3 / 2 / 4 / 3; }
 
+.project__grid--hide {
+  display: none; }
+
+.project__grid--hide:hover {
+  display: block; }
+
 .project__photo {
   width: 100%;
   z-index: 1;

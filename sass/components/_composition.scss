@@ -38,7 +38,15 @@
   &__grid-6 {
     grid-area: 3 / 2 / 4 / 3;
   }
+  //Show information on hover
+  &__grid--hide {
+    display: none;
+  }
+  &__grid--hide:hover {
+    display: block;
+  }
 
+  ///Photos
   &__photo {
     width: 100%;
     z-index: 1;
