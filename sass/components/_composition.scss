@@ -1,6 +1,4 @@
 .project__grid {
-  // margin: 0rem 0 12rem 0;
-
   display: grid;
   grid-template-columns: repeat(2, 50rem);
   grid-template-rows: repeat(3, 70rem);
@@ -13,11 +11,13 @@
     flex-direction: column;
   }
 }
+
 #projects {
   // margin-left: 9rem;
   margin-bottom: 0rem;
   font-size: 4rem;
 }
+
 .project {
   &__grid-1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -49,6 +49,7 @@
   ///Photos
   &__photo {
     width: 100%;
+    min-height: 400px;
     z-index: 1;
     grid-area: 1 / 1 / 2 / 3;
     transition: 0.5s;
@@ -75,7 +76,7 @@
   font-size: 5rem;
   color: $color-dark-blue;
   transition: 0.25s;
-  margin: 2.25rem 0 0rem 6rem;
+  margin: 2.25rem 7%;
 
   &:hover {
     cursor: pointer;
@@ -85,5 +86,76 @@
   }
   &:active {
     transform: scale(1, 1) translateY(0.5rem);
+  }
+}
+
+//content change on hover
+.img-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.img-overlay-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+.img-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  line-height: normal !important;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+  text-align: center;
+
+  &__sub {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+  }
+  &__tech {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: none;
+    letter-spacing: 1px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
 }

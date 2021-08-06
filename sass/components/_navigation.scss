@@ -82,13 +82,14 @@
     margin-bottom: 2rem;
   }
   ul li a {
+    text-transform: uppercase;
     text-decoration: none;
     font-size: 2.4rem;
     color: $color-grey;
     transition: 0.5s;
     transition: all 250ms !important;
     display: inline-block;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
   ul li a:hover {
     color: $color-dark-blue;

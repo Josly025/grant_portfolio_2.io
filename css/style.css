@@ -109,8 +109,8 @@ body {
   .heading-primary--main {
     display: block;
     font-size: 6rem;
-    font-weight: 400;
     letter-spacing: 3.5rem;
+    font-weight: 200;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -133,12 +133,18 @@ body {
 
 .heading-tertiary {
   font-size: 2.75rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   background: -webkit-linear-gradient(100deg, #a6aeb1, #00488b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid #a6aeb1;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 5px; }
   @media (max-width: 75em) {
     .heading-tertiary {
       margin-left: 5rem; } }
@@ -148,15 +154,28 @@ body {
 
 .heading-tertiary-accounts {
   font-size: 2.75rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.5rem; }
+  letter-spacing: 0.5rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.658);
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 5px; }
 
 .heading-tertiary-contact {
   font-size: 2.75rem;
-  font-weight: 700;
+  font-weight: 400;
+  color: #a6aeb1;
   text-transform: uppercase;
-  color: #fff; }
+  letter-spacing: 0.5rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.658);
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 5px; }
 
 .paragraph,
 #about {
@@ -378,6 +397,7 @@ body {
 
 .project__photo {
   width: 100%;
+  min-height: 400px;
   z-index: 1;
   grid-area: 1 / 1 / 2 / 3;
   transition: 0.5s; }
@@ -398,7 +418,7 @@ body {
   font-size: 5rem;
   color: #00488b;
   transition: 0.25s;
-  margin: 2.25rem 0 0rem 6rem; }
+  margin: 2.25rem 7%; }
   .code_icon:hover {
     cursor: pointer;
     color: rgba(166, 174, 177, 0.5);
@@ -406,6 +426,67 @@ body {
     z-index: 20; }
   .code_icon:active {
     transform: scale(1, 1) translateY(0.5rem); }
+
+.img-overlay {
+  position: relative;
+  width: 100%; }
+
+.img-overlay-image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100; }
+
+.img-overlay:hover .overlay {
+  opacity: 1; }
+
+.text {
+  color: white;
+  line-height: normal !important;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+  text-align: center; }
+  .text__sub {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%); }
+  .text__tech {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: none;
+    letter-spacing: 1px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
 
 .headshot {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 72, 139, 0.8)), url(../../images/wall.png);
@@ -601,13 +682,14 @@ label {
     list-style: none;
     margin-bottom: 2rem; }
   .nav__items ul li a {
+    text-transform: uppercase;
     text-decoration: none;
     font-size: 2.4rem;
     color: #a6aeb1;
     transition: 0.5s;
     transition: all 250ms !important;
     display: inline-block;
-    letter-spacing: 1px; }
+    letter-spacing: 2px; }
   .nav__items ul li a:hover {
     color: #00488b;
     transform: translateX(5px) !important;
@@ -642,9 +724,8 @@ label {
         margin-left: 0rem;
         height: 25rem; } }
     .resume__image:hover {
-      outline: 1.5rem solid #a6aeb1;
       transform: scale(1.1, 1.1) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      box-shadow: 0 1rem 2rem rgba(166, 174, 177, 0.5);
       z-index: 20; }
   @media (max-width: 75em) {
     .resume__btn {
@@ -736,7 +817,7 @@ label {
         top: 3.5rem;
         left: 5rem; } }
   .header__logo {
-    height: 10rem; }
+    height: 14rem; }
   .header__text-box {
     position: absolute;
     top: 40%;

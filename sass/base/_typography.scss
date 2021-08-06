@@ -20,9 +20,8 @@ body {
   &--main {
     display: block;
     font-size: 6rem;
-    font-weight: 400;
     letter-spacing: 3.5rem;
-
+    font-weight: 200;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -50,15 +49,18 @@ body {
 
 .heading-tertiary {
   font-size: $default-font-size;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  // color: $color-dark-blue;
-
   letter-spacing: 0.5rem;
-
   background: -webkit-linear-gradient(100deg, $color-grey, $color-dark-blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid $color-grey;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 5px;
   @include respond(tab-land) {
     margin-left: 5rem;
   }
@@ -69,18 +71,29 @@ body {
 
 .heading-tertiary-accounts {
   font-size: $default-font-size;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  // color: $color-dark-blue;
-
   letter-spacing: 0.5rem;
+  border-bottom: 2px solid $color-black-light;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 5px;
 }
 
 .heading-tertiary-contact {
   font-size: $default-font-size;
-  font-weight: 700;
+  font-weight: 400;
+  color: $color-grey;
   text-transform: uppercase;
-  color: $color-white;
+  letter-spacing: 0.5rem;
+  border-bottom: 2px solid $color-black-light;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 5px;
 }
 
 .paragraph,

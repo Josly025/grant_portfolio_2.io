@@ -96,20 +96,26 @@
       <section class="projects">
         <div class="project__grid" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .project__fade; delay: 500; repeat: true">
 
-          <!--project1-->
+          <!-- PROJECT 1-->
           <div class="project__grid-1 project__fade">
+            <div class="img-overlay">
             <a target="_blank"
               href="https://cryptic-fortress-75760.herokuapp.com/"
               >
-                    <img
+            <img
               src="./images/projects/modish.png"
               alt="Modish"
-              class="project__photo project__photo--p1"
+              class="project__photo project__photo--p1 "
             />
-            <!-- <p class="product__grid--hide">
-              This should display on hover
-            </p> -->
+            <!--Show on hover-->
+            <div class="overlay">
+              <h3 class="text">Modist music</h3>
+               <p class="text__sub">Spotify inspired music player</p>
+               <p class="text__tech">HTML, Sass, UIkit, Node.js, MongoDB, AudioDB API</p>
+            </div>
+            <!--END of hover text-->
           </a>
+          </div>
               <a target="_blank"
               href="https://cryptic-fortress-75760.herokuapp.com/"
               class="btn-images btn-images--white btn-images--animated btn-projects"
@@ -120,17 +126,29 @@
             </a>
           </div>
 
-          <!--project2-->
+          <!-- PROJECT 2-->
            <div class="project__grid-2 project__fade">
-             <a target="_blank"
-              href="https://shredoutlet.herokuapp.com/"
-              >
-            <img
-              src="./images/projects/shred_outlet.png"
-              alt="Reading List App"
-              class="project__photo project__photo--p4"
-            />
-            </a>
+             <div class="img-overlay">
+                  <a target="_blank"
+                      href="https://shredoutlet.herokuapp.com/"
+                      >
+                    <img
+                      src="./images/projects/shred_outlet.png"
+                      alt="Reading List App"
+                      class="project__photo project__photo--p4"
+                    />
+               
+                    <!--Show on hover-->
+                <div class="overlay">
+                  <h3 class="text">Shred Outlet</h3>
+                  <p class="text__sub">E-commerce Ski Outlet inspired by my favorite hobby</p>
+                  <p class="text__tech">HTML, Sass, UIkit, Node.js, Passport, MongoDB, Self-built API</p>
+                </div>
+            <!--END of hover text-->
+               </a>
+
+             </div>
+            
              <a target="_blank"
               href="https://shredoutlet.herokuapp.com/"
               class="btn-images btn-images--white btn-images--animated btn-projects"
@@ -141,9 +159,10 @@
             </a>
           </div>
 
-          <!--project3-->
+          <!--PROJECT 3-->
            <div class="project__grid-3 project__fade">
-              <a target="_blank"
+             <div class="img-overlay">
+                  <a target="_blank"
               href="https://compassionate-leavitt-8ad7b2.netlify.app/"
               >
               <img
@@ -151,7 +170,16 @@
               alt="trending times"
               class="project__photo project__photo--p5"
             />
-            </a>
+               <!--Show on hover-->
+                <div class="overlay">
+                  <h3 class="text">Trending Times</h3>
+                  <p class="text__sub">News source inspired by a need for a variety in news </p>
+                  <p class="text__tech">HTML, Sass, Material-UI, React.js, NewsDB API</p>
+                </div>
+              <!--END of hover text-->
+              </a>
+             </div>
+
              <a target="_blank"
               href="https://compassionate-leavitt-8ad7b2.netlify.app/"
               class="btn-images btn-images--white btn-images--animated btn-projects"
@@ -162,9 +190,10 @@
             </a>
           </div>
 
-         <!-- PROJECT 4 -->
+         <!-- PROJECT 4  -->
            <div class="project__grid-4 project__fade">
-              <a id="mjo__btn" target="_blank"
+             <div class="img-overlay">
+                   <a id="mjo__btn" target="_blank"
               href="https://mattjohnsonoutdoors.com/"
               >
                 <img
@@ -172,24 +201,42 @@
               alt="Movie Search"
               class="project__photo project__photo--p2 "
             />
-            </a>
-             <a id="mjo__btn" target="_blank"
+              <!--Show on hover-->
+                <div class="overlay">
+                  <h3 class="text">Matt Johnson </h3>
+                  <p class="text__sub">Internship live-site for a professional angler </p>
+                  <p class="text__tech">HTML, CSS, WordPress, UIkit, jQuery</p>
+                </div>
+              <!--END of hover text-->
+               </a>
+             </div>
+             <a  target="_blank"
               href="https://mattjohnsonoutdoors.com/"
               class="btn-images btn-images--white btn-images--animated btn-projects"
-              >Matt Johnson<br>Outdoors</a
-            >
+              >Matt Johnson</a>
           </div> 
 
-          <!--project5-->
+          <!-- PROJECT 5-->
            <div class="project__grid-5 project__fade">
-              <a target="_blank"
+             <div class="img-overlay">
+                 <a target="_blank"
               href="https://agitated-sinoussi-fda0ef.netlify.app/">
                <img
               src="./images/projects/top_hits.png"
               alt="plan-eat-rium"
               class="project__photo project__photo--p5"/>
-            </a>
-             <a target="_blank"
+
+                <!--Show on hover-->
+                <div class="overlay">
+                  <h3 class="text">Top Hits</h3>
+                  <p class="text__sub">Music site for viewing artist albums and songs</p>
+                  <p class="text__tech">HTML, Sass, JavaScript, AudioDB API</p>
+                </div>
+                  <!--END of hover text-->
+                </a>
+             </div>
+             
+         <a target="_blank"
               href="https://agitated-sinoussi-fda0ef.netlify.app/"
               class="btn-images btn-images--white btn-images--animated btn-projects"
               >Classic Hits</a
@@ -197,6 +244,8 @@
             <a  target="_blank" href="https://github.com/Josly025/top_hits.io.git" >
           <i class="fas fa-code-branch code_icon"></i>
             </a>
+
+            
           </div>
           <!--project6-->
            <!-- <div class="project__grid-6">
@@ -219,7 +268,7 @@
       <!--CONTACT-->
       <form  name="contact" class="contact" method="POST" data-netlify="true">
         <div id="contact" class="contact__heading">
-          <h3 >Contact</h3>
+          <h3 class="heading-tertiary-contact">Contact</h3>
         </div>
         <div class="contact__inputs">
           <input type="text" name="name" id="name" required="required" /><span
@@ -267,7 +316,7 @@
             /></a>
         </div>
         <div class="resume__row--three" uk-scrollspy-class="uk-animation-slide-top">
-               <a target="_blank"
+            <a target="_blank"
               href="./images/Grant_Joslyn_Resume.pdf"
               class="btn-images btn-images--white btn-images--animated "
               >Resume</a
