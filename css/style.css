@@ -344,7 +344,7 @@ body {
 
 .btn-projects {
   float: left;
-  margin: 2rem 0 0 14rem;
+  margin: 2rem 0 0 26%;
   text-align: center; }
   @media (max-width: 75em) {
     .btn-projects {
