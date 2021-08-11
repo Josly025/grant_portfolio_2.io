@@ -23,8 +23,7 @@
       rel="stylesheet"
     />
     <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
     <link href="./css/style.css" rel="stylesheet" />
     <title>Grant's Portfolio</title>
   </head>
@@ -54,12 +53,10 @@
       </div>
     </header>
 
+  <!--ABOUT SECTION-->
     <section class="section-about">
       <div class="row">
         <div class="headshot__grid">
-
-
-
           <div  class="headshot headshot__grid-image">
             <figure class="headshot__shape">
               <img
@@ -82,14 +79,14 @@
             Hello, I'm Grant...
           </h3>
           <p class="paragraph">
-            Thank you for coming to my site! I am a progressing Web Developer with a focus on the client-side of web applications. I attended the University of Minnesota - Twin Cities where I studied Psychology with an interest in workplace selection and behavior. Learning to code in R and JavaScript my senior year sparked my interest in pursuing a profession related to computer programming. After graduation, I attended the University of Minnesota - Full-Stack Web Development Bootcamp, which allowed me to broaden my coding skills and further enhanced my passion for programming. You can feel free to view my projects below and send me a message in the contact section.
+            Thank you for visiting my site! I am a progressing Web Developer with a focus on the client-side of web applications. I have internship experience building seven live websites for various clients to help market their outdoor products. I am seeking new opportunities to contribute my skills and expand my toolset along the way. You can feel free to view my projects below and send me a message in the contact section.
         </p>
+        <a class="btn btn__white btn--animated" href="#contact">Contact Me</a>
           </div>
-          
         </div>
       </div>
 
-      <!--Projects-->
+      <!-- PROJECTS SECTION -->
       <div class="u-center-text u-margin-bottom-big">
             <h3 id="projects" class="heading-tertiary my_projects">My Projects</h3>
           </div>
@@ -215,7 +212,7 @@
               class="btn-images btn-images--white btn-images--animated btn-projects"
               >Matt Johnson</a>
           </div> 
-
+          
           <!-- PROJECT 5-->
            <div class="project__grid-5 project__fade">
              <div class="img-overlay">
@@ -246,7 +243,7 @@
             </a>
 
             
-          </div>
+        
           <!--project6-->
            <!-- <div class="project__grid-6">
                  <img
@@ -265,8 +262,10 @@
         </div>
         </section>
           
-      <!--CONTACT-->
-      <form  name="contact" class="contact" method="POST" data-netlify="true">
+<!--CONTACT SECTION-->
+
+  <section class="contact">
+      <form  name="contact" method="POST" data-netlify="true">
         <div id="contact" class="contact__heading">
           <h3 class="heading-tertiary-contact">Contact</h3>
         </div>
@@ -301,8 +300,8 @@
       </input>
       </form>
     </section>
-    <!--resume-->
-    <!--Add grid-->
+
+<!--RESUME SECTION -- 3 col grid -->
     <section id="resume" class="resume"  uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
         <div class="resume__row--one" uk-scrollspy-class="uk-animation-slide-top">
              <img src="images/logo-2.png" alt="Logo" class="resume__logo" />
@@ -324,12 +323,9 @@
           </div>
     </section>
 
-    <!--footer-->
+<!-- FOOTER SECTION -->
     <footer class="footer" id="accounts">
-      <h3 class="heading-tertiary-accounts accounts">
-            Accounts
-      </h3>
-     
+      <h3 class="heading-tertiary-accounts accounts"> Accounts </h3>
       <div class="footer__icons">
           <a  target="_blank"  href="https://github.com/Josly025" 
             ><i  id="github"class="fab fa-github btn-icons"></i
@@ -344,11 +340,9 @@
       </div>
       <div class="footer__icons--copy">Grant Joslyn &copy</div>
     </footer>
-    <!--Particle.js-->
-      
-
-    <!--Hidden Menu-->
-    <div class="nav__items">
+   
+<!-- TOGGLE LEFT -- HIDDEN MENU-->
+    <nav class="nav__items">
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -356,16 +350,14 @@
         <li><a href="#resume">Resume</a></li>
         <li><a href="#accounts">Accounts</a></li>
       </ul>
-    </div>
-    <canvas class="background"></canvas>
-  
-<script src=
-"path/to/particles.min.js"
-></script>
-   <!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+    </nav>
+<!-- SCRIPTS -->
+    <script src=
+    "path/to/particles.min.js"
+    ></script>
+<!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
     <script src="app.js"></script>
-
   </body>
 </html>

@@ -5,9 +5,7 @@
   top: 8%;
   width: 6rem;
   height: 6rem;
-
   background: url("./../../images/menu.png");
-  //   background: url(https://i.ibb.co/HrfVRcx/menu.png);
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: center;
@@ -18,7 +16,7 @@
   }
   @include respond(phone) {
     left: 80%;
-    top: 5.5%;
+    top: 4.5%;
   }
   &.active {
     background: url("./../../images/close.png");
@@ -41,14 +39,11 @@
   background: $color-black-light;
   transition: 0.5s;
   z-index: 2;
-  @include respond(tab-land) {
-    margin-left: 6rem;
-  }
 
   &.active {
     right: 30rem;
     @include respond(tab-land) {
-      right: 11rem;
+      right: 20rem;
     }
     @include respond(phone) {
       right: 15rem;

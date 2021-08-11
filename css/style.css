@@ -629,7 +629,7 @@ label {
   @media (max-width: 37.5em) {
     .toggle {
       left: 80%;
-      top: 5.5%; } }
+      top: 4.5%; } }
   .toggle.active {
     background: url("./../../images/close.png");
     background-repeat: no-repeat;
@@ -649,14 +649,11 @@ label {
   background: rgba(0, 0, 0, 0.658);
   transition: 0.5s;
   z-index: 2; }
-  @media (max-width: 75em) {
-    .nav {
-      margin-left: 6rem; } }
   .nav.active {
     right: 30rem; }
     @media (max-width: 75em) {
       .nav.active {
-        right: 11rem; } }
+        right: 20rem; } }
     @media (max-width: 37.5em) {
       .nav.active {
         right: 15rem; } }
@@ -802,7 +799,7 @@ label {
   @media (max-width: 75em) {
     .header {
       height: 90vh;
-      width: 90%; } }
+      width: 100%; } }
   @media (max-width: 37.5em) {
     .header {
       margin-left: 0rem;
