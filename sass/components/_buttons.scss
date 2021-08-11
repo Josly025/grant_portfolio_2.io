@@ -40,6 +40,12 @@
     }
   }
 
+  &--about-contact {
+    background-color: rgba(0, 72, 139, 0.308);
+    color: $color-grey !important;
+    border: 0.2rem solid $color-grey !important;
+  }
+
   &::after {
     content: "";
     display: inline-block;
